@@ -5,12 +5,14 @@ plugins {
 
 android {
     namespace 'com.example.myapplication'
-    compileSdk 33
+    compileSdk 33   // compile version i which against your app is compiled
 
     defaultConfig {
-        applicationId "com.example.myapplication"
-        minSdk 24
-        targetSdk 33
+        // it is not possible to save to different apps that share the same id and u can't even publish app with same id on google play
+        applicationId "com.example.myapplication" // it is most important because this is used by android and google play tp identify your app
+        // application id should be unique
+        minSdk 24    // min supported verison of your app
+        targetSdk 33   // means on version api is and generally u should keep your compile and target sdk on latest app versions
         versionCode 1
         versionName "1.0"
 

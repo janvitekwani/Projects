@@ -14,6 +14,7 @@
         android:layout_width="242dp"
         android:layout_height="166dp"
         android:src="@drawable/dice_1"
+        tools:src ="@drawable/dice_2"
         android:layout_gravity="center"/>
 
     <Button
@@ -50,6 +51,12 @@ Note :
 
   #layouts
      are used when we have to put lots of viewgroups
+
+  # tools : src
+   this content which have design which is visible when we design the app
+   but in actual app the one the android src will be visible this done to remove the ambuity(means which
+   one to use when ) cause by same src attribute
+
 
 
 
